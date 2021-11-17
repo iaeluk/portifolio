@@ -1,0 +1,37 @@
+#sobre {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.perfil {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3rem 0;
+
+    p {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .perfil--img {
+        width: 150px;
+        filter: grayscale(100%);
+        border-radius: 100%;
+    }
+}
+
+.stack {
+
+    display: flex;
+    gap: .7rem;
+    padding: .7rem 0 5rem;
+
+    img {
+
+        width: 50px;
+    }
+}

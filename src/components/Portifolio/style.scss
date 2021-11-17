@@ -1,0 +1,55 @@
+#portifolio {
+    margin-top: 3.7rem;
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-top: 1rem;
+    min-height: 350px;
+    padding-bottom: 3rem;
+
+   .container--portifolio {   
+    
+    background-color: rgb(231, 231, 231);
+
+    .container--img {
+        width: 300px;
+        height: 175px;
+        transition: all .5s ease-in-out;
+        
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .url {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.3rem;
+        
+
+        img {
+            height: 30px;
+            cursor: pointer;
+        }
+
+        .github-icon {
+            height: 36px;
+        }
+    }
+   }
+}
+

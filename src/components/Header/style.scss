@@ -1,0 +1,41 @@
+nav {
+
+    background-color: #f8f9fa;
+    color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    z-index: 99999;
+
+    img {
+        width: 3rem;
+        filter: grayscale(100%);
+        cursor: pointer;
+    }
+
+    ul {
+
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        gap: 1.3rem;
+        margin: 1rem 1rem;
+
+        li {
+            
+            // margin-right: 3rem;
+            cursor: pointer;
+            
+            a {
+                text-decoration: none;
+                color: #333;
+
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+
+    
+}

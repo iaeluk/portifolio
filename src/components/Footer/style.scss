@@ -1,0 +1,27 @@
+.footer {
+    background: #e7e7e7;
+    height: 100px;
+
+    #contato {
+        
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 1rem;
+       
+      
+        img {
+           margin-top: 1rem;
+            width: 40px;
+            margin-right: 5px;
+        }
+
+        #email-icon {
+            margin-top: 1.17rem;
+            height: 35px;
+            width: 35px;
+        }
+
+    }
+
+    
+}
