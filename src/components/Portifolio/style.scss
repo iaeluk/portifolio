@@ -18,8 +18,8 @@
     background-color: rgb(231, 231, 231);
 
     .container--img {
-        width: 300px;
-        height: 175px;
+        width: 250px;
+        height: 150px;
         transition: all .5s ease-in-out;
         
         &:hover {
@@ -42,12 +42,12 @@
         
 
         img {
-            height: 30px;
+            height: 27px;
             cursor: pointer;
         }
 
         .github-icon {
-            height: 36px;
+            height: 32px;
         }
     }
    }

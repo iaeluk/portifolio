@@ -1,6 +1,7 @@
 import './style.scss'
 import { Component } from 'react'
 
+
 const listaDeProjetos = [
     {
         imagem: "https://i.imgur.com/CUCQi90.jpeg",        
@@ -34,12 +35,19 @@ const listaDeProjetos = [
     }
 ]
 
-  const projetos = []
 
-  for (const [index, projeto] of listaDeProjetos.entries()) {
+export default class Portifolio extends Component {
 
-         projetos.push(
-      
+  render(){
+
+      return (
+
+        <>
+         <h2 id="portifolio">Portifólio</h2>
+         <div className="container">
+         
+          {listaDeProjetos.map(projeto => 
+          
             <div id="portifolio" className="container--portifolio">
             <div className="container--img">
             <img src={projeto.imagem}/>
@@ -48,21 +56,11 @@ const listaDeProjetos = [
             <div className="url">
             <a title="Github" target="_blank" href={projeto.repositorio}><img className="github-icon" src="https://cdn1.iconfinder.com/data/icons/picons-social/57/github_rounded-512.png"/></a>
             <a title="Acessar site" target="_blank" href={projeto.site}> <img src="https://cdn4.iconfinder.com/data/icons/top-search-7/128/_web_Internet_network_www_communication_global_worldwide-512.png"/></a>
-           </div>
             </div>
-    )
-  }
+            </div>
+          
+          )}
 
-
-export default class Portifolio extends Component {
-
-  render(){
-
-      return (
-        <>
-         <h2 id="portifolio">Portifólio</h2>
-        <div className="container">
-          {projetos}
         </div>
         </>
       )

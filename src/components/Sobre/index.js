@@ -13,7 +13,7 @@ export default class Sobre extends Component {
             <p>Apaixonado por tecnologia e inovação.</p>
 
             <div className="stack">
-            <img title="HTML" src="https://cdn-icons-png.flaticon.com/512/919/919827.png" />
+            <img title="HTML5" src="https://cdn-icons-png.flaticon.com/512/919/919827.png" />
             <img title="CSS" src="https://cdn-icons-png.flaticon.com/512/919/919826.png" />
             <img title="JavaScript" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" />
             <img title="MySQL" src="https://cdn-icons-png.flaticon.com/512/919/919836.png" />
